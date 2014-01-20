@@ -1,0 +1,9 @@
+extends ./layout
+
+block content
+	#container
+		#client-pane
+		#conversation-pane
+			include messages
+		#writer-pane
+			input(type="text", disabled, placeholder="Enter your message here")

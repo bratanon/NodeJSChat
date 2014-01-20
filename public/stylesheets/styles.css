@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body, select, input, textarea {
+  font: 400 100%/1.45 'Source Sans Pro', Helvetica, arial, sans-serif;
+  color: #6f6f6f;
+}
+
+#container {
+  width:100%;
+  height:100%;
+  float:left;
+}
+
+#client-pane {
+    float: left;
+    width: 200px;
+    background-color: #252525;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#conversation-pane {
+  float: left;
+  min-height: 400px;
+  padding: 20px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#writer-pane {
+  background-color: #252525;
+  padding: 20px 0;
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#writer-pane input[type="text"] {
+  width: 500px;
+  border-radius: 4px;
+  padding: 6px 8px;
+  outline: none;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.sender { 
+  float:left; 
+  margin-right: 20px;
+  font-style: italic;
+}
+
+
+.client {
+    border-bottom: 1px solid ;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.green {
+  background-color: #74960D;
+}
+
+.yellow {
+  background-color: #eee007;
+}
+
+.red {
+  background-color: #F24537;
+}
+
+.status {
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 40%;
+  right: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 5px #6b6b6b;
+}
